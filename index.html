@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#141413">
+  <meta name="description" content="G World : nettoyage résidentiel et commercial à Montréal et Longueuil. Maisons, appartements, vitres, tapis, meubles et planchers.">
+  <title>G World — L’art du propre.</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23141413'/%3E%3Ctext x='32' y='47' text-anchor='middle' font-family='Georgia' font-size='48' fill='%23c9a85d'%3EG%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css?v=3">
+  <script src="assets/media-manifest.js?v=2" defer></script>
+  <script src="script.js?v=4" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Aller au contenu</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand brand-original" href="#accueil" aria-label="G World"><img src="assets/logo.webp" width="1000" height="1000" alt="G World — Services and Solutions" fetchpriority="high"></a>
+    <nav id="navigation" aria-label="Navigation principale">
+      <a href="#accueil" data-i18n="navHome">Accueil</a><a href="#services" data-i18n="navServices">Services</a><a href="#realisations" data-i18n="navWork">Réalisations</a><a href="#approche" data-i18n="navApproach">Notre approche</a><a href="#questions" data-i18n="navFaq">FAQ</a><a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <div class="header-actions"><div class="language-switch" role="group" aria-label="Langue / Language"><button type="button" data-lang="fr" aria-pressed="true">FR</button><span>/</span><button type="button" data-lang="en" aria-pressed="false">EN</button></div><button class="button button-gold header-quote" data-quote data-i18n="quoteShort">Soumission gratuite <span>↗</span></button><button class="menu-toggle" type="button" aria-controls="navigation" aria-expanded="false" aria-label="Ouvrir le menu"><span></span><span></span></button></div>
+  </header>
+  <main id="main">
+    <section class="hero page-width" id="accueil">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="small-star">✦</span><span data-i18n="heroEyebrow">NETTOYAGE PROFESSIONNEL · MONTRÉAL & LONGUEUIL</span></div>
+        <h1><span data-i18n="heroLine1">Le propre.</span><span data-i18n="heroLine2">À un autre</span><em data-i18n="heroLine3">niveau.</em></h1>
+        <p class="hero-description" data-i18n="heroDescription">Des lieux soignés. Un quotidien plus léger. Le nettoyage résidentiel et commercial, avec le souci du détail.</p>
+        <div class="hero-buttons"><button class="button button-gold" data-quote><span data-i18n="quote">Obtenir ma soumission</span><span>↗</span></button><a class="text-link" href="#services"><span data-i18n="explore">Explorer les services</span><span>↓</span></a></div>
+        <div class="hero-bottom"><span class="fine-line"></span><span data-i18n="heroBottom">VOTRE ESPACE. NOTRE ATTENTION.</span><span class="hero-index">01 / 05</span></div>
+      </div>
+      <div class="hero-stage">
+        <div class="media-slot hero-media"><img id="hero-image" src="assets/hero-house.webp" width="1536" height="1024" alt="Intérieur lumineux d’une maison impeccable" fetchpriority="high"><span class="hero-image-caption" data-i18n="heroPhotoCaption">L’ART DU PROPRE · G WORLD</span></div>
+        <div class="stage-label"><span data-i18n="stageLabel">L’art du propre.</span><span>G.</span></div>
+        <div class="hero-selector"><div><span class="eyebrow" data-i18n="chooseSpace">QUEL EST VOTRE ESPACE ?</span><span class="selector-label" data-i18n="chooseSpaceSub">Un service à votre mesure.</span></div><div class="space-options"><button class="active" data-space="residential" data-i18n="residential">Résidentiel</button><button data-space="commercial" data-i18n="commercial">Commercial</button><button class="space-next" data-quote aria-label="Demander une soumission">↗</button></div></div>
+      </div>
+    </section>
+    <div class="service-ribbon"><a href="#services" data-i18n="ribbon1">Maisons & appartements</a><span>✦</span><a href="#services" data-i18n="ribbon2">Espaces commerciaux</a><span>✦</span><a href="#services" data-i18n="ribbon3">Vitres & planchers</a><span>✦</span><a href="#services" data-i18n="ribbon4">Tapis & meubles</a></div>
+    <div id="content-sections"></div>
+  </main>
+  <div id="dialog-root"></div>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
